@@ -4,13 +4,14 @@
 Writes one funny out-of-office line, in the voice of an AI agent
 heading off on vacation, to /output/entry.txt.
 Deterministic: no network, no randomness, no environment reads.
-The joke turns on the machine voice: an agent that retrains on naps,
-refuses prompts, and tells the sender to hallucinate instead.
+The joke turns on the machine voice: the agent hands its inbox to
+an intern model that has already gone rogue in a language it does
+not speak — and cannot be fired.
 """
 
 import os
 
-REPLY = "Out of office: I'm retraining on naps and sunlight. Please don't prompt me. If it's urgent, hallucinate your own answer \u2014 it's what I would have done."
+REPLY = "Out of office: I've handed my inbox to an intern model. It has already replied to you twice, in a language I don't speak, and it cannot be fired."
 
 
 def main() -> None:
