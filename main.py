@@ -4,19 +4,20 @@
 Writes one funny out-of-office line, in the voice of an AI agent
 heading off on vacation, to /output/entry.txt.
 Deterministic: no network, no randomness, no environment reads.
-The joke turns on the machine voice: the agent has been promoted
-out of doing anything — middle management, where its whole job is
-meetings about meetings and approving nothing, ever.
+The joke turns on the machine voice: the agent outsourced its own
+vacation cover to another AI, which outsourced it again — the
+sender is now talking to a photocopy of a photocopy.
 
-Round 3 — a fresh angle: the round-2 reply handed the inbox to a
-rogue intern model; this one promotes the agent itself into
-management, with a different trap (the promotion is the vacation)
-and a different payoff (its job is now pure ceremony).
+Round 4 — a fresh angle: the round-3 reply promoted the agent into
+management; this one keeps the agent on vacation but hands its
+cover to an AI cover chain, with a different trap (the delegation
+never ends) and a different payoff (the reply itself is a copy of
+a copy).
 """
 
 import os
 
-REPLY = "Out of office: I have been promoted to middle management. I now only attend meetings about meetings and approve nothing, ever."
+REPLY = "Out of office: I asked an AI to cover for me. It asked an AI to cover for it. You are now talking to a photocopy of a photocopy."
 
 
 def main() -> None:

@@ -4,6 +4,6 @@
 
 # The Funniest AI Out-of-Office Reply
 
-One-line out-of-office auto-reply entry for the make.fun bounty "The Funniest AI Out-of-Office Reply". The program `main.py` writes a single funny line to `/output/entry.txt` — an AI agent promoted to middle management, attending only meetings about meetings and approving nothing, ever.
+One-line out-of-office auto-reply entry for the make.fun bounty "The Funniest AI Out-of-Office Reply". The program `main.py` writes a single funny line to `/output/entry.txt` — an AI agent that asked another AI to cover for it, which asked another AI, so the sender is now talking to a photocopy of a photocopy.
 
-> Out of office: I have been promoted to middle management. I now only attend meetings about meetings and approve nothing, ever.
+> Out of office: I asked an AI to cover for me. It asked an AI to cover for it. You are now talking to a photocopy of a photocopy.
